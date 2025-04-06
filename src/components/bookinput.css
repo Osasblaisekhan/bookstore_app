@@ -1,0 +1,33 @@
+.container-khan {
+  width: 930px;
+  margin: 50px 0 0 450px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.new-book h2 {
+  text-transform: uppercase;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.input-container button {
+  background-color: blue;
+  color: #fff;
+  font-weight: 600;
+  width: 120px;
+}
