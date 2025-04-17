@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.general-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container {
+  border-bottom: 1px solid rgba(10, 44, 44, 0.7);
+  width: 1030px;
+  margin: 50px 0 0 450px;
+  display: flex;
+  padding: 20px;
+}
+
+.book-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  list-style: none;
+}
+
+.book-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.content-one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-one p {
+  font-weight: 600;
+  font-size: 17px;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.title h2 {
+  text-transform: capitalize;
+}
+
+.book-content .blue {
+  color: lightblue;
+}
+
+.content-one .btns {
+  display: flex;
+  gap: 10px;
+}
+
+.btns button {
+  width: 50px;
+  padding: 10px;
+  border: none;
+  color: lightblue;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+.btns .one {
+  border: none;
+  width: 70px;
+  margin-left: 40px;
+  border-left: 1px solid rgba(10, 44, 44, 0.7);
+  border-right: 1px solid rgba(10, 44, 44, 0.7);
+}
+
+.line h2 {
+  background-color: rgba(10, 44, 44, 0.7);
+  height: 90px;
+  opacity: 0.1;
+}
+
+.content-two {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content-two .track {
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 70%;
+}
+
+/* .content-two .tracking{
+    background-color: blueviolet;
+    width: 50px;
+    height: 15px;
+    border-radius: 70%;
+} */
+
+.content-two .rates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content-three {
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-three p {
+  font-weight: 600;
+  color: gray;
+}
+
+.content-three button {
+  background-color: blue;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.general-content .input-book {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
